@@ -1,0 +1,182 @@
+*{
+  padding:0;
+}
+.black{
+  background-color: #2c3e50;
+}
+.green{
+  background-color: #18bc9c;
+}
+.white{
+  background-color: white;
+}
+.font-black{
+  color: #2c3e50;
+}
+.font-white{
+  color:#fff;
+}
+.font-green{
+  color:#18bc9c;
+}
+/* margin bottom di 30px */
+.mb-30{
+  margin-bottom:30px;
+}
+/* margin top di 70px */
+.mt-70{
+  margin-top:70px;
+}
+/* per il padding bottom di 40px */
+.pb-40{
+  padding-bottom:40px;
+}
+/* per il testo in grassetto */
+.bold{
+  font-weight:bold;
+}
+/* per la prima riga, la nav */
+.black .col-md-6{
+  position:relative;
+  height:100px;
+}
+.black .col-md-6 h1{
+  margin:0 auto;
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.black .col-md-6 a:hover{
+  text-decoration: none;
+}
+.black .col-md-6 a{
+  color:#fff;
+  font-weight: bold;
+}
+.black .col-md-6 .green-text:hover{
+  color:#18bc9c;
+  text-decoration: none;
+}
+ .black .col-md-6 ul{
+  position:absolute;
+  top:50%;
+  right:0;
+  transform: translateY(-50%);
+}
+.black .col-md-6 ul li {
+  display:inline-block;
+  margin-left:40px;
+}
+
+/* per la riga verde */
+.green .col-md-8 h1{
+  font-size:4.75rem;
+}
+.green .col-md-8 h2{
+  font-size:1.75em;
+}
+
+/* per i titoli h2 delle colonne 12 */
+.col-md-12 h2{
+  font-size:3em;
+}
+
+/* per le immagini */
+.white .col-md-4 img{
+  width:100%;
+  height:auto;
+  position:relative;
+  background-color: #18bc9c;
+  cursor:pointer;
+}
+/* per l'icona search */
+.white .row .col-md-4 i{
+  padding:70px 70px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background-color: #18bc9c;
+  color:white;
+}
+/* quando passo sull'immagine */
+.white .col-md-4 img:hover{
+  transition: all ease .5s;
+  opacity:0.1;
+}
+
+/* per i tasti Download Now e Send */
+.green .col-md-12 a,.white .col-md-8 a{
+  padding:20px;
+  color:white;
+  font-size: 1.25em;
+  border-radius:5px;
+}
+.green .col-md-12 a{
+  border:1px solid white;
+}
+.white .col-md-8 a{
+  background-color: #128f76;
+}
+.col-md-12 a:hover{
+  background-color: white;
+  color:#212529;
+  text-decoration: none;
+}
+.col-md-8 a:hover{
+  background-color:#0069d9;
+  text-decoration: none;
+  color:white;
+}
+
+/* per il margine tra l'icona download e la scritta Download Now */
+.green .col-md-12 i{
+  margin-right:10px;
+}
+
+/* per la riga degli input */
+.white .col-md-8 input{
+  border:none;
+  width:100%;
+  border-bottom:1px solid #e9ecef;
+  height:70px;
+}
+.white .col-md-8 .last-input{
+  border-bottom:0;
+}
+
+/* per la sezione prima del footer */
+.black .col-md-4 h4{
+  font-size:1.5em;
+}
+.black .col-md-4 i{
+  color:white;
+  padding:10px;
+  border-radius: 50%;
+  border:1px solid white;
+  margin-right:10px;
+}
+.black .col-md-4 i:hover{
+  color:#212529;
+  background-color: white;
+}
+/* per tutti i paragrafi */
+p{
+  font-size:1.25em;
+  font-weight: 300;
+}
+/* per il footer */
+footer{
+  background-color:#212529;
+  padding:20px;
+}
+
+/* per gli hr */
+.green .col-md-8 hr, .green .col-md-12 hr{
+  width:80px;
+  border:3px solid white;
+}
+.white .col-md-12 hr{
+  width:80px;
+  border:3px solid #2c3e50;
+}
